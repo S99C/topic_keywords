@@ -22,14 +22,14 @@ A repository for extracting most recent and relevant keyphrases for input topics
 3. Install all the dependencies using ```pip install -r requirements.txt```.
 4. Input all the topics and respective url fetching count in the "input.xlsx" file in "topics" and "urls_to_fetch" column and save the file.
 
-#https://user-images.githubusercontent.com/79993232/138594617-dfec414a-f814-4de3-9e4e-f8d0c4ce7e55.mp4
+https://user-images.githubusercontent.com/79993232/138594617-dfec414a-f814-4de3-9e4e-f8d0c4ce7e55.mp4
 
 5. Open the experiments.ipynb file the same directory and change the number of keyowrds you want to extract in 3rd last cell.
 6. Click on "Run All" and wait for the program to compute and write to "output.xlsx" file in the same directory.
 
 7. Once all the cell have run and "output.xlsx" has been generated you can open and visulize the keyphrase and check their scores in any spreadsheet handling software like MS Excel.
 
-#<img width="946" alt="data_dash" src="https://user-images.githubusercontent.com/79993232/138594796-10c76e82-6342-4e5a-805a-41ef6f282ba1.PNG">
+<img width="946" alt="data_dash" src="https://user-images.githubusercontent.com/79993232/138594796-10c76e82-6342-4e5a-805a-41ef6f282ba1.PNG">
 
 ## References
 1. [PKE module documentation](https://boudinfl.github.io/pke/build/html/index.html)
