@@ -4,7 +4,7 @@ A repository for extracting most recent and relevant keyphrases for input topics
 ## Requirements<br>
 1. Get topic inputs from user [Required].
 2. Get the top number of url to fetch per topic from SERP result. [Required]
-3. Scrap them 
+3. Scrape them 
 4. Fetch the top 'n' keyphrases from it.
 5. Save the result in a file.
 
