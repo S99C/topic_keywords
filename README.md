@@ -20,14 +20,15 @@ A repository for extracting most recent and relevant keyphrases for input topics
 1. Clone this repository and create a new virtual environment.
 2. Activate the virtual enviromnent.
 3. Install all the dependencies using ```pip install -r requirements.txt```.
-4. Input all the topics and respective url fetching count in the "input.xlsx" file in "topics" and "urls_to_fetch" column and save the file.
+4. Input the topics and respective url fetching count in the "Output Dashboard.xlsx" file in "topics" and "Number of Results" column and save the file, do not close it at this stage.
+5. Open the "input.xlsx" file, update and save it and you may close both files now.
+6. If any confusion persists, you may follow the brief video description.
 
 https://user-images.githubusercontent.com/79993232/138594617-dfec414a-f814-4de3-9e4e-f8d0c4ce7e55.mp4
 
-5. Open the experiments.ipynb file the same directory and change the number of keyowrds you want to extract in 3rd last cell.
-6. Click on "Run All" and wait for the program to compute and write to "output.xlsx" file in the same directory.
+5. Open the "experiments.ipynb" file in the same directory and click on "Run All" and wait for the program to compute and write to "output.xlsx" file in the same directory.
 
-7. Once all the cell have run and "output.xlsx" has been generated you can open and visulize the keyphrase and check their scores in any spreadsheet handling software like MS Excel.
+7. Once all the cells have run and "output.xlsx" has been generated you can open and visulize the keyphrase and check their scores in any spreadsheet handling software like MS Excel from the "Output Dashboard.xlsx" file.
 
 <img width="946" alt="data_dash" src="https://user-images.githubusercontent.com/79993232/138594796-10c76e82-6342-4e5a-805a-41ef6f282ba1.PNG">
 
